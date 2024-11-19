@@ -1,0 +1,59 @@
+*{    /*для обнуления даем значения*/
+    margin: 0; /*кратко можете писать p0*/
+    padding: 0; /*кратко можете писать p0*/ 
+    box-sizing: border-box;
+  }
+
+  body{
+  
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      
+  }
+  main{
+      width: 220px;
+      height: 380px;
+      background: url(./images/923488-800.jpg) center/ cover no-repeat ;
+      /*чтобы дубликата не было*/
+      border-radius: 20px; /* закругленные края*/
+
+  }
+  header{
+    width: 100%;
+    height: 90px;
+    color: white;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+  }
+  header div{
+    text-align: center;
+
+  }
+ 
+  header div p{
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: rgb(141, 140, 140);
+  }
+  .content{
+    height: 65%;
+   
+  }
+  footer{
+    height: 5%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  footer button{
+     border: none;
+     padding: 1rem 2rem;
+     border-radius: 30px;
+     background: gray;
+     color: rgb(112, 8, 15);
+     font-weight: bold;
+  }
